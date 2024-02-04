@@ -13,9 +13,9 @@ import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
-    lateinit var adapter: MeaningAdapter
+    private lateinit var adapter: MeaningAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
